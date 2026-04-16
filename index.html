@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Top 10 Taylor Swift Songs</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Background */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #87CEEB, #FFC0CB);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.container {
+    width: 720px;
+    background: rgba(255,255,255,0.35);
+    padding: 30px;
+    border-radius: 18px;
+    backdrop-filter: blur(12px);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.6);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* Subtle Glitter */
+.container::before {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(rgba(255,255,255,0.6) 1px, transparent 1px);
+    background-size: 25px 25px;
+    animation: sparkle 18s linear infinite;
+    opacity: 0.25;
+}
+
+@keyframes sparkle {
+    from { transform: translate(0,0); }
+    to { transform: translate(-80px, -80px); }
+}
+
+/* Title */
+h1 {
+    color: #111;
+    margin-bottom: 20px;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+/* Grid Layout */
+.song-grid {
+    display: flex;
+    gap: 20px;
+}
+
+/* Column */
+.column {
+    width: 50%;
+}
+
+/* Song Card */
+.song {
+    background: rgba(255,255,255,0.7);
+    margin: 10px 0;
+    padding: 12px 14px;
+    border-radius: 12px;
+    transition: all 0.25s ease;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #111;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+/* Hover Effects */
+.song:hover {
+    background: #fff;
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+/* Like Button */
+.like {
+    font-size: 18px;
+    transition: transform 0.2s;
+}
+
+.like:hover {
+    transform: scale(1.2);
+}
+
+/* Footer */
+.footer {
+    margin-top: 25px;
+    color: #111;
+    font-size: 14px;
+    font-weight: 500;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    padding-top: 10px;
+}
+
+/* Small Accent Line */
+.footer span {
+    color: #ff6fa5;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>🎶 Top 10 Taylor Swift Songs 🎶</h1>
+
+    <div class="song-grid">
+
+      
+</script>
+
+</body>
+</html>
