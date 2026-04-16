@@ -155,6 +155,23 @@ h1 {
             <div class="song" onclick="play('https://www.youtube.com/watch?v=b1kbLwvqugk')">
                 Anti-Hero <span class="like" onclick="like(event)">🤍</span>
             </div>
+             <div class="footer">
+        Created by <span>Bello Rachel G.</span>, 
+        <span>Dianela Jena Fee L.</span>, 
+        <span>Garlit Emeliza N.</span>
+    </div>
+</div>
+
+<script>
+function play(link) {
+    window.open(link, "_blank");
+}
+
+function like(event) {
+    event.stopPropagation();
+    let heart = event.target;
+    heart.textContent = heart.textContent === "🤍" ? "❤️" : "🤍";
+}
 <div class="container">
     <h1>🎶 Top 10 Taylor Swift Songs 🎶</h1>
 
